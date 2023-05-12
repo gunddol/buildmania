@@ -1,0 +1,170 @@
+.join_wrap {width:100%;}
+.join_wrap .con_wrap {border:3px solid #f3f3f3; width:520px; padding:50px; box-sizing:border-box; margin: 0 auto;}
+.join_wrap .con_wrap .title {text-align:center; font-size:40px; font-family: 'NSKB';}
+.join_wrap .con_wrap .description2 {text-align: right; font-size:16px; color:#b0b0b0;} 
+.join_wrap .con_wrap .info_input_table {}
+.join_wrap .con_wrap .info_input_table .input_row {font-size:0;}
+.join_wrap .con_wrap .info_input_table .input_row + .input_row {margin-top:10px;}
+.join_wrap .con_wrap .info_input_table .input_row input {
+	width:100%; 
+	border-top:0; 
+	border-left:0; 
+	border-right:0;
+	border-bottom:1px solid #222;
+	line-height:49px;
+	height:50px;
+	box-sizing: border-box;
+}
+::placeholder{color:#a6a6a6;}
+.join_wrap .con_wrap .info_input_table .input_row .input_data {display:inline-block; vertical-align:top;}
+
+/*1.회원가입-아이디*/
+.join_wrap .con_wrap .info_input_table .input_row .input_data.ipt_id {width:78%;}
+
+/*1.회원가입-휴대폰번호*/
+.join_wrap .con_wrap .info_input_table .input_row .input_data.ipt_phone_num {width:30%;}
+.join_wrap .con_wrap .info_input_table .input_row .input_data.ipt_phone_num + 
+.join_wrap .con_wrap .info_input_table .input_row .input_data.ipt_phone_num {margin-left:1%;}
+
+/*1.회원가입-중복확인*/
+.overlap_check {display:inline-block; width:20%; background:#222; color:#fff; line-height: 50px; text-align: center; font-size:17px; margin-left:2%;}
+
+.join_wrap .con_wrap .info_input_table .input_row .width_line {font-size:19px; line-height: 50px; font-weight:normal; margin:0 1%;}
+.join_wrap .con_wrap .info_input_table .input_row .check_wrap_input {width:100%; display:inline-block; text-align:right;}
+.join_wrap .con_wrap .info_input_table .input_row .check_wrap_input label {display: inline-block;font-size: 1.8rem; }
+
+/*1.회원가입-우편번호찾기*/
+.join_wrap .con_wrap .info_input_table .input_row .input_data.postal_code {width:70%;}
+.join_wrap .con_wrap .info_input_table .input_row .postal_code_button {
+	display:inline-block; 
+	width:27%; 
+	background:#222; 
+	color:#fff; 
+	line-height:50px; 
+	text-align: center; 
+	font-size:17px; 
+	margin-left:2%;
+}
+/*1.회원가입-이메일*/
+.join_wrap .con_wrap .info_input_table .input_row .input_data.ipt_email {width:272px;}
+.join_wrap .con_wrap .info_input_table .input_row select {
+	display: inline-block;
+    width: 111px;
+    text-align: center;
+    font-size: 14px;
+    margin-left: 2.3%;
+    /* padding: 13px; */
+    background: url(../img/arrow9.png) no-repeat 90% center;
+    height: 50px;
+    padding-left: 13px;
+}
+/*1.회원가입-이메일 @ 공간*/
+.space {width:6%; font-size:14pt;}
+
+/*1.회원가입-체크박스*/
+
+
+.check_wrap_input label {
+	margin-left: 10px;
+	cursor: pointer;
+}
+.check_wrap_input input[type="radio"] {
+	display: none;
+}
+.check_wrap_input input[type="radio"] + .radio {
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	background: url('../img/radio_off.png') no-repeat center;
+	vertical-align: middle;
+	margin-right: 8px;
+}
+.check_wrap_input input[type="radio"]:checked + .radio {
+	background-image: url('../img/radio_on.png');
+}
+
+
+
+
+/*2.회원등급*/
+.member_rating {margin-top:50px;}
+.rating_list {}
+.rating_box {text-align: center; padding:30px 0;}
+.rating_box + .rating_box {border-top:1px solid #222;}
+.rating_box_left {display:inline-block; vertical-align: middle; text-align:center; width:64px;}
+.rating_box_right {display:inline-block; vertical-align: middle; text-align:left; margin-left:20px;}
+.red_point {color:red;}
+.black_txt {color:#222;}
+.gray_txt {color:#999;}     
+.s_size_txt {color:#999; font-size:14px;}
+
+/*2.회원등급-체크박스*/
+.rating_box_left .check_wrap_input {width:100%; margin:0 auto; text-align: inherit;}
+.rating_box_left .check_wrap_input input {opacity:0; display:none;}
+.rating_box_left .check_wrap_input input[type="radio"] + label {
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	background: url('../img/radio_off.png') no-repeat center;
+	vertical-align: middle;
+	margin-right: 8px;
+}
+.rating_box_left .check_wrap_input input[type="radio"]:checked + .radio {
+	background-image: url('../img/radio_on.png');
+}
+input[type="checkbox"]#chkAll + label { background: url('../img/chk_off.gif') no-repeat 72%;}
+input[type="checkbox"]#chkAll:checked + label {background: url('../img/chk_on.gif') no-repeat 72%;}
+
+
+
+/*3.이용약관*/
+.terms_of_use {margin-top:50px;}
+.terms_of_use_join {margin-top:50px;}
+.s_title {font-weight: bold;}
+.terms_of_use_join_con {margin-top:20px; width:100%; height:190px; box-sizing: border-box; padding:15px; border:1px solid #ccc; overflow-y:scroll; color:#999;}
+.consent_txt {margin-top:10px; text-align:right;}
+
+/*3.이용약관-체크박스*/
+.check_wrap_input {width:100%; margin:0 auto;}
+.check_wrap_input input {opacity:0; display: none;}
+.check_wrap_input input[type="checkbox"] + label {
+	cursor: pointer;
+	background: url('../img/chk_off.gif') no-repeat 46%;
+	text-align: right;
+	width: 100%;
+	display: inline-block;
+	font-size: 1.6rem;
+}
+.check_wrap_input input[type="checkbox"]:checked + label {
+	background: url('../img/chk_on.gif') no-repeat 46%;
+}
+
+/*3.이용약관-체크박스 첫번째(회원 가입 약관)*/
+input[type="checkbox"]#chkAll_05 + label { background: url('../img/chk_off.gif') no-repeat 53%;}
+input[type="checkbox"]#chkAll_05:checked + label {background: url('../img/chk_on.gif') no-repeat 53%;}
+
+
+
+/*4.하단버튼*/
+.footer_bottom {margin-top:50px; text-align: center; font-size:0;}
+.footer_bottom a {width:140px; height:50px; line-height: 50px; color:#fff; text-align: center; display: inline-block; font-size:16px; font-family: 'NSKB';}
+.cancel_button {background:#464845;}
+.confirm_button {background:#1f4983; margin-left:20px;}
+
+/* 박은빛 추가 css */
+.section_sign_up {
+    padding: 130px 0;
+/*     display: flex;
+    justify-content: center;
+    align-items: center; */
+	font-family: 'NSKR';
+	color: #222;
+	letter-spacing: -0.8px;
+	font-size: 1.6rem;
+}
+.join_wrap .con_wrap .info_input_table .input_row input::placeholder {
+	font-family: 'NSKL';
+	letter-spacing: -0.8px;
+	font-size: 1.5rem;
+}
+

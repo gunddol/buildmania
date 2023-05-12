@@ -1,0 +1,48 @@
+/* 노토산스KR thin */
+@font-face {
+	font-family: 'NSKT';
+	src: url('../font/NotoSansKR-Thin.eot');
+	src: url('../font/NotoSansKR-Thin.woff') format('woff');
+}
+/* 노토산스KR light */
+@font-face {
+	font-family: 'NSKL';
+	src: url('../font/NotoSansKR-Light.eot');
+	src: url('../font/NotoSansKR-Light.woff') format('woff');
+}
+/* 노토산스KR demilight */
+@font-face {
+	font-family: 'NSKD';
+	src: url('../font/NotoSansKR-DemiLight.eot');
+	src: url('../font/NotoSansKR-DemiLight.woff') format('woff');
+}
+/* 노토산스KR regular */
+@font-face {
+	font-family: 'NSKR';
+	src: url('../font/NotoSansKR-Regular.eot');
+	src: url('../font/NotoSansKR-Regular.woff') format('woff');
+}
+/* 노토산스KR medium */
+@font-face {
+	font-family: 'NSKM';
+	src: url('../font/NotoSansKR-Medium.eot');
+	src: url('../font/NotoSansKR-Medium.woff') format('woff');
+}
+/* 노토산스KR bold */
+@font-face {
+	font-family: 'NSKB';
+	src: url('../font/NotoSansKR-Bold.eot');
+	src: url('../font/NotoSansKR-Bold.woff') format('woff');
+}
+/* 노토산스KR black */
+@font-face {
+	font-family: 'NSKBK';
+	src: url('../font/NotoSansKR-Black.eot');
+	src: url('../font/NotoSansKR-Black.woff') format('woff');
+}
+/* 프로스토 regular */
+@font-face {
+	font-family: 'POR';
+	src: url('../font/ProstoOne-Regular.eot');
+	src: url('../font/ProstoOne-Regular.woff') format('woff');
+}

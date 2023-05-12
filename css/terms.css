@@ -1,0 +1,72 @@
+.section_terms {
+	padding-top: 50px;
+	padding-bottom: 125px;
+}
+.section_terms .terms_policy_wrap {
+	display: flex;
+	justify-content: space-between;
+}
+.terms_policy_nav {
+    flex: 0 0 233px;
+}
+.terms_policy_nav ul li:not(:last-child) {
+    margin-bottom: 3px;
+}
+.terms_policy_nav ul a.active {
+    background-color: #024388;
+	color: #fff;
+}
+.terms_policy_nav ul a {
+    display: block;
+    height: 48px;
+    padding: 0 20px;
+    font-family: 'NSKR';
+    font-size: 1.4rem;
+    color: #222;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section_terms .terms_policy {
+    flex: 0 0 1018px;
+}
+.terms_policy {
+	font-family: 'NSKR';
+	color: #666;
+	font-size: 1.3rem;
+	margin: 0;
+	line-height: 1;
+	letter-spacing: 0;
+}
+.terms_policy h3 {
+	line-height: 100px;
+    font-size: 2.6rem;
+    font-family: 'NSKL';
+    color: #222;
+}
+.terms_policy h4 {
+	line-height: 30px;
+    font-size: 1.5rem;
+    font-family: 'NSKB';
+    color: #222;
+    margin-top: 30px;
+	display: block;
+	padding: 0;
+	border: 0;
+	margin-bottom: 0;
+}
+.terms_policy h5 {
+	margin-bottom: 0;
+	font-size: 1.3rem;
+	line-height: 42px;
+	color: #222;
+	font-family: 'NSKB';
+}
+.terms_policy p {
+	line-height: 21px;
+}
+.terms_policy .boxtype1 {
+	background-color: #f5f5f5;
+    padding: 10px;
+    margin: 7px 0;
+}

@@ -1,0 +1,105 @@
+/* 단가표 */
+.sub_content_wrap {
+    padding-top: 50px;
+    padding-bottom: 125px;
+    line-height: 1;
+    letter-spacing: -0.8px;
+    font-family: 'NSKR';
+}
+.section_unit_price_list .title_banner_wrap {
+	background-color: #f6f5f1;
+}
+.unit_price_list_wrap {
+	padding-top: 50px;
+}
+.unit_price_list {
+	border-top: 2px solid #024388;
+	font-size: 17px;
+	color: #222; 
+}
+.unit_price_list input[type="checkbox"] {
+	width: auto;
+	height: auto;
+}
+.unit_price_list .grid {
+	border-bottom: 1px solid #dfdfdf;
+	display: flex;
+}
+.unit_price_list .item1 {
+	width: 320px;
+	flex-shrink: 0;
+	display: flex;
+	padding-left: 20px;
+}
+.unit_price_list h4 {
+	font-family: 'NSKB';
+}
+.unit_price_list .item div {
+	display: flex;
+	align-items: center;
+}
+.unit_price_list .item2 {
+	display: flex;
+	flex-wrap: wrap;
+	padding-top: 15px;
+}
+.unit_price_list .item2 div {
+	margin-right: 30px;
+	margin-bottom: 15px;
+}
+.unit_price_list input[type="checkbox"] {
+	margin-right: 6px;
+}
+.unit_price_btn {
+	margin-top: 76px;
+}
+.unit_price_table_wrap {
+	margin-top: 70px; 
+}
+.unit_price_table_wrap .top {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 23px;
+}
+.unit_price_table_wrap .top .date {
+	font-size: 18px;
+	/* color: #e0dfdb; */
+	font-family: 'NSKB';
+}
+.unit_price_table_wrap .top .caution {
+	font-size: 1.5rem;
+}
+.unit_price_table {
+	width: 100%;
+	border-top: 2px solid #024388;
+	font-size: 1.5rem;
+}
+.unit_price_table th {
+	background-color: #f3faff;
+	height: 77px;
+	font-family: 'NSKB';
+	line-height: 1.2;
+	border-bottom: 1px solid #dfdfdf;
+}
+.unit_price_table td {
+	text-align: center;
+	line-height: 60px;
+	border-bottom: 1px solid #dfdfdf;
+}
+.output-btn {
+	margin-top: 48px;
+}
+.output-btn button:nth-of-type(1) {
+	background-color: #fff;
+	border: 1px solid #024388;
+	color: #024388;
+}
+.output-btn button:nth-of-type(2) {
+	background-color: #464845;
+	border: 0;
+	color: #fff;
+}
+.unit_price_table .col1 {
+	width: 60px;
+}

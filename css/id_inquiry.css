@@ -1,0 +1,129 @@
+.id_inquiry_box {
+	width: 520px;
+	border: 3px solid #f3f3f3;
+	padding: 73px 68px 84px;
+	line-height: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	letter-spacing: -0.8px;
+}
+.id_inquiry_box h2 {
+	font-family: 'NSKB';
+	font-size: 3.8rem;
+	color: #222;
+	margin-bottom: 70px;
+	letter-spacing: -2px;
+}
+.id_inquiry_box a {
+	display: block;
+	width: 100%;
+	height: 70px;
+	line-height: 70px;
+	text-align: center;
+	color: #fff;
+	font-family: 'NSKR';
+	font-size: 1.8rem;
+	background-color: #1f4983;
+}
+.id_inquiry_box a:nth-of-type(1) {
+	margin-bottom: 20px;
+}
+.inquiry_by_box h2 {
+	margin-bottom: 76px;
+}
+.inquiry_by_box h2 span {
+	display: block;
+	text-align: center;
+}
+.inquiry_by_box h2 span:first-child {
+	margin-bottom: 18px;
+}
+.inquiry_by fieldset:nth-of-type(1) {
+	margin-bottom: 68px;
+}
+.inquiry_by h3 {
+	font-family: 'NSKB';
+	font-size: 2.0rem;
+	color: #222;
+	margin-bottom: 16px;
+}
+.inquiry_by p {
+	font-size: 1.4rem;
+	color: #999;
+	font-family: 'NSKR';
+	line-height: 22px;
+	word-break: keep-all;
+}
+.inquiry_by .inputBox {
+	margin-top: 12px;
+	display: flex;
+	justify-content: space-between;
+}
+.inquiry_by .inputBox .left {
+	display: flex;
+	flex-direction: column;
+	flex: 1 0 auto;
+	margin-right: 8px;
+}
+.inquiry_by .inputBox .right {
+	flex: 0 0 90px;
+}
+.inquiry_by .inputBox .right button {
+	width: 100%;
+	height: 100%;
+	background-color: #1f4983;
+	color: #fff;
+	font-family: 'NSKR';
+	font-size: 1.7rem;
+	letter-spacing: -0.8px;
+}
+.inquiry_by .inputBox input[type="text"] {
+	width: 100%;
+	height: 40px;
+	border: 0 none;
+	border-bottom: 1px solid #222;
+	letter-spacing: -0.8px;
+	color: #222;
+	font-family: 'NSKR';
+	font-size: 1.4rem;
+}
+.inquiry_by .inputBox input[type="text"]:not(:first-child) {
+	margin-top: 10px;
+}
+.inquiry_by .inputBox input[type="text"]::placeholder {
+	color: #b3b3b3;
+}
+.inquiry_by .inputBox2 {
+	margin-top: 12px;
+}
+.inquiry_by .inputBox2 .grid {
+	display: flex;
+	justify-content: space-between;
+}
+.inquiry_by .inputBox2 .grid:not(:first-child) {
+	margin-top: 10px;
+}
+.inquiry_by .inputBox2 input[type="text"] {
+	flex: 1 0 auto;
+	height: 40px;
+	border: 0 none;
+	border-bottom: 1px solid #222;
+	letter-spacing: -0.8px;
+	color: #222;
+	font-family: 'NSKR';
+	font-size: 1.4rem;
+}
+.inquiry_by .inputBox2 input[type="text"]::placeholder {
+	color: #b3b3b3;
+}
+.inquiry_by .inputBox2 .grid button {
+	flex: 0 0 90px;
+	height: 40px;
+	background-color: #1f4983;
+	color: #fff;
+	font-family: 'NSKR';
+	font-size: 1.7rem;
+	letter-spacing: -0.8px;
+	margin-left: 10px;
+}

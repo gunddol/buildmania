@@ -1,0 +1,243 @@
+@charset "utf-8";
+
+/* 리셋 */
+* {
+	margin: 0;
+	padding: 0;
+}
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+html {
+	font-size: 10px;
+}
+body {
+	font-family: 'NSKM', sans-serif;
+	background: #fff;
+	color: #333;
+}
+li {
+	list-style: none;
+}
+a:link, a:visited {
+	text-decoration: none;
+}
+a:focus {
+	outline: none;
+}
+img {
+	vertical-align: middle;
+	border: 0;
+}
+fieldset {
+	border: 0 none;
+}
+input {
+	font-family: 'NSKM', sans-serif;
+}
+input:focus, select:focus, textarea:focus, button:focus {
+	outline: none;
+}
+input[type="checkbox"] {
+	width: 18px;
+	height: 18px;
+	vertical-align: middle;
+}
+select {
+	font-family: 'NSKM', sans-serif;
+	border-radius: 0;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	cursor: pointer;
+}
+select::-ms-expand {
+	display: none;
+}
+textarea {
+	vertical-align: middle;
+}
+button {
+	cursor: pointer;
+	border: 0 none;
+	font-family: 'NSKM', sans-serif;
+}
+h1, h2, h3, h4, h5, h6, th {
+	font-weight: normal;
+}
+address, i {
+	font-style: normal;
+}
+table {
+	border-collapse: collapse;
+}
+strong {
+	font-weight: normal;
+}
+
+/* 공통 클래스, 아이디 */
+.hidden {
+	position: absolute;
+	left: -9999px;
+	width: 0px;
+	height: 0px;
+	line-height: 0;
+	font-size: 1px;
+	overflow: hidden;
+}
+#modal {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.3);
+	z-index: 1000000;
+	display: none;
+}
+#wrap {
+	max-width: 100%;
+	min-width: 1280px;
+	position: relative;
+	overflow-x: hidden;
+	font-size: 1.5rem;
+}
+#wrap.active {
+	padding-top: 347px;
+}
+.container {
+	width: 1280px;
+	margin: 0 auto;
+}
+.tc_white {
+	color: #fff !important;
+}
+.slick-slide:focus {
+	outline: none;
+}
+#log {
+    position: fixed;
+    z-index: 1000000000;
+    top: 200px;
+    left: 20px;
+    width: 100px;
+    height: 50px;
+    color: #000;
+    font-size: 50px;
+    font-weight: bold;
+}
+.input_w10 {
+	width: 100px !important;
+}
+.input_w20 {
+	width: 200px !important;
+}
+.input_w25 {
+	width: 250px !important;
+}
+.chk-visibility {
+	display: none;
+}
+span.checkbox {
+    display: inline-block;
+    vertical-align: middle;
+    width: 18px;
+    height: 18px;
+    background: url('../img/chk_off.gif') no-repeat center;
+    cursor: pointer;
+}
+input[type="checkbox"]:checked + .checkbox {
+	background-image: url('../img/chk_on.gif');
+}
+
+/* 테이블 타입 */
+.table_vertical {
+	width: 100%;
+    border-top: 2px solid #024388;
+    font-size: 1.5rem;
+    font-family: 'NSKR';
+}
+.table_vertical tr {
+	border-bottom: 1px solid #ededed;
+	height: 58px;
+}
+.table_vertical th {
+	background-color: #f3faff;
+	font-family: 'NSKB';
+}
+.table_vertical td {
+	padding: 0 20px;
+}
+.table_horizontal {
+	width: 100%;
+    border-top: 2px solid #024388;
+    font-size: 1.5rem;
+    font-family: 'NSKR';
+}
+.table_horizontal th {
+	background-color: #f3faff;
+    font-family: 'NSKB';
+}
+.table_horizontal tr:first-child {
+    height: 48px;
+}
+.table_horizontal tr {
+    height: 58px;
+    border-bottom: 1px solid #ededed;
+}
+.table_horizontal td {
+    text-align: center;
+}
+.no-data {
+	width: 100% !important;
+    text-align: center;
+    line-height: 60px;
+    font-size: 1.6rem;
+    font-family: 'NSKD';
+}
+
+
+/* 
+##################
+	WRAP LOADING 2020-12-11 옶겨옴
+##################
+*/
+
+.wrap-loading {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.2);
+    filter: progid:DXImageTransform.Microsoft.Gradient(startColorstr='#20000000', endColorstr='#20000000');
+    z-index: 999999999999999999999;
+}
+
+.wrap-loading div {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -21px;
+    margin-top: -21px;
+}
+
+
+.wrap-loading-cutting {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.2);
+    filter: progid:DXImageTransform.Microsoft.Gradient(startColorstr='#20000000', endColorstr='#20000000');
+    z-index: 999999999999999999999;
+}
+
+.wrap-loading-cutting div {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -21px;
+    margin-top: -21px;
+}

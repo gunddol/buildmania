@@ -1,0 +1,315 @@
+.section_quote {
+	padding-top: 50px;
+	padding-bottom: 500px;
+	line-height: 1;
+	font-family: 'NSKR';
+	color: #222;
+	letter-spacing: -0.8px;
+}
+.section_quote .title_banner_wrap {
+	background-color: #ecfcff;
+}
+.section_quote .quote_header {
+	margin-top: 50px;
+	margin-bottom: 20px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.section_quote .quote_header select {
+	width: 168px;
+	height: 36px;
+	background: url('../img/arrow9.png') no-repeat #fff 92% center;
+	border: 1px solid #dcdcdc;
+	padding-left: 10px;
+	font-family: 'NSKR';
+	font-size: 1.7rem;
+	color: #222;
+	margin-right: 10px;
+}
+.section_quote .quote_header input[type="text"] {
+	width: 274px;
+	height: 36px;
+	background-color: #fff;
+	border: 1px solid #dcdcdc;
+	padding-left: 10px;
+	font-family: 'NSKR';
+	font-size: 1.7rem;
+	color: #222;
+}
+.section_quote .quote_header button {
+	width: 48px;
+	height: 36px;
+	background: url('../img/btn_search3.png') no-repeat #fff center;
+}
+.quote_table .col1 {
+	width: 150px;
+}
+.quote_table .col2 {
+	width: 150px;
+}
+.quote_table .col3 {
+	width: 776px;
+}
+.quote_table td:nth-child(3) {
+	text-align: left;
+	padding-left: 70px;
+}
+.quote_btn_wrap {
+	margin-top: 90px;
+	text-align: right;
+}
+.quote_btn_wrap a {
+	display: inline-block;
+	width: 147px;
+	height: 48px;
+	border: 1px solid #d9d9d9;
+	color: #222;
+	font-size: 1.7rem;
+	text-align: center;
+	line-height: 46px;
+}
+.request_quote_wrap {
+	padding-top: 48px;
+}
+.request_quote_wrap .caution {
+	font-family: 'NSKR';
+	font-size: 1.4rem;
+}
+.quoteWrite_table input[type="text"] {
+	height: 40px;
+    border: 1px solid #ddd;
+    padding-left: 12px;
+    font-family: 'NSKR';
+    letter-spacing: -0.3px;
+    font-size: 1.5rem;
+    background-color: #f6fbff;
+	color: #222;
+}
+.request_quote_wrap .grid2 {
+	margin-top: 70px;
+}
+.request_quote_wrap .grid2 dl {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-top: 2px solid #024388;
+	background-color: #f3faff;
+	font-family: 'NSKB';
+	font-size: 1.8rem;
+	text-align: center;
+	height: 50px;
+}
+.quoteWrite_table1 .col1 {
+	width: 250px;
+}
+.quoteWrite_table1 th {
+	text-align: left;
+	padding: 0 20px;
+}
+.quoteWrite_table1 td {
+	padding: 20px;
+}
+.quoteWrite_table2 input[type="text"] {
+	font-size: 1.4rem;
+}
+.quoteWrite_table2 .col1 {
+	width: 50px;
+}
+.quoteWrite_table2 .col2 {
+	width: 400px;
+}
+.quoteWrite_table2 .col3 {
+	
+}
+.quoteWrite_table2 .col4 {
+	width: 130px;
+}
+.quoteWrite_table2 .col5 {
+	width: 130px;
+}
+.quoteWrite_table2 .col6 {
+	
+}
+.quoteWrite_table2 .col7 {
+	width: 200px;
+}
+.quoteWrite_table2 td {
+	padding: 15px 10px;
+}
+.quoteWrite_table2 td:nth-child(2) input {
+	width: 100%;
+}
+.quoteWrite_table2 td:nth-child(3) input {
+	width: 40px;
+	text-align: center;
+	padding: 0;
+}
+.quoteWrite_table2 td:nth-child(4) input {
+	width: 80px;
+	text-align: center;
+	padding: 0;
+}
+.quoteWrite_table2 td:nth-child(5) input {
+	width: 80px;
+	text-align: center;
+	padding: 0;
+}
+.quoteWrite_table2 td:nth-child(6) input {
+	width: 100%;
+}
+.quoteWrite_table2 span {
+	margin-left: 3px;
+	font-size: 1.4rem;
+}
+.quoteWrite_table2 button {
+	font-size: 1.4rem;
+	color: #222;
+	background-color: #fff;
+	border: 1px solid #a0a0a0;
+	padding: 10px 13px;
+}
+.quoteWrite_table2 button:last-child {
+	margin-left: 10px;
+}
+.quoteWrite_head {
+	display: flex;
+	/* justify-content: space-between; */
+	align-items: flex-end;
+	margin-bottom: 16px;
+}
+.total_amount .total {
+	display: inline-block;
+    font-size: 2.0rem;
+    color: #222;
+	font-family: 'NSKB';
+    vertical-align: middle;
+	margin-right: 20px;
+	margin-top: 4px;
+}
+.total_amount .price {
+	display: inline-block;
+    color: #ff5151;
+    font-family: 'NSKB';
+    font-size: 3rem;
+    vertical-align: middle;
+}
+.total_amount .price i {
+    font-size: 2rem;
+    vertical-align: middle;
+}
+.request_quote_wrap .addSubject {
+	/* margin-top: 20px; */
+	margin-left: auto;
+}
+.request_quote_wrap .addSubject button {
+	width: 80px;
+    height: 23px;
+    background: #454845;
+    margin-right: 10px;
+    color: #fff;
+    font-family: 'NSKR';
+}
+}
+.request_quote_wrap .addSubject button.add {
+	background: url('../img/add3.png') no-repeat #fff center;
+}
+.request_quote_wrap .addSubject button.subtract {
+	background: url('../img/subtract3.png') no-repeat #fff center;
+	margin-left: 8px;
+}
+.request_quote_btn {
+	justify-content: flex-end;
+}
+
+/* 견적요청 팝업 */
+.popQuote {
+	position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 50px;
+    background-color: #fff;
+    z-index: 1000001;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+    letter-spacing: -0.8px;
+    color: #222;
+    line-height: 1;
+	display: none;
+}
+.popQuote_header {
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: 2px solid #464845;
+    margin-bottom: 23px;
+    font-family: 'NSKB';
+    font-size: 2.2rem;
+    color: #464845;
+}
+.popQuote .order_list_wrap {
+	height: 473px;
+	overflow-y: auto;
+	border-bottom: 1px solid #dfdfdf;
+}
+.popQuote .order_list_wrap .cart_list:last-child {
+	border-bottom: 0;
+}
+.popQuote .order_list_wrap .order_list .item1 .thumb {
+	flex: 0 0 66px;
+}
+.popQuote .order_list_wrap .order_list .item1 {
+	padding: 20px 30px;
+}
+.popQuote .order_list_wrap .cart_list {
+	font-size: 1.5rem;
+}
+.popQuote .classification {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+.popQuote .classification .select_wrap {
+	display: flex;
+}
+.popQuote .classification select {
+	min-width: 168px;
+	height: 40px;
+	border: 1px solid #222;
+	font-family: 'NSKR';
+	font-size: 1.5rem;
+	padding-left: 11px;
+	padding-right: 30px;
+	letter-spacing: -0.8px;
+	color: #222;
+	background: url('../img/arrow9.png') no-repeat #fff calc(100% - 10px) center;
+}
+.popQuote .classification select:not(:first-child) {
+	margin-left: 10px;
+}
+.popQuote .classification button {
+	color: #fff;
+	width: 168px;
+	height: 40px;
+	background-color: #024388;
+	font-family: 'NSKB';
+	font-size: 1.7rem;
+	letter-spacing: -0.8px;
+}
+.popQuote .order_list .item3 button {
+	width: 57px;
+	height: 35px;
+	background-color: #fff;
+	border: 1px solid #dfdfdf;
+	font-family: 'NSKR';
+	font-size: 1.5rem;
+	letter-spacing: -0.8px;
+	color: #222;
+}
+.popQuote .order_list a {
+	cursor: default;
+}
+.popQuote_close {
+	cursor: pointer;
+}

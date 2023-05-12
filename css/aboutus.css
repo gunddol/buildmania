@@ -1,0 +1,235 @@
+.aboutus {
+	padding-top: 5rem;
+}
+.aboutUs-01 .item:not(:first-child) {
+	margin-top: 9rem;
+}
+.aboutUs-01 .item1 {
+	display: flex;
+	padding-left: 5.5rem;
+}
+.aboutUs-01 .item1 .left-side li:not(:first-child) {
+	margin-top: 8rem;
+}
+.aboutUs-01 .item1 .right-side {
+	margin-left: 5.6rem;
+}
+.aboutUs-01 .item1 .right-side h4 {
+	font-size: 2.5rem;
+	font-family: 'NSKM';
+	margin-bottom: 0.3rem;
+}
+.aboutUs-01 .item1 .right-side p {
+	font-family: 'NSKR';
+	font-size: 1.8rem;
+	line-height: 2.8rem;
+}
+.aboutUs-01 .item1 .paragraph:not(:first-child) {
+	margin-top: 2rem;
+}
+.aboutUs-01 .item1 .paragraph:nth-child(odd) h4 {
+	color: #3d6c00;
+}
+.aboutUs-01 .item1 .paragraph:nth-child(even) h4 {
+	color: #6c3a00;
+}
+.aboutUs-01 .box {
+	text-align: center;
+}
+.aboutUs-01 .box h4 {
+	font-size: 2.5rem;
+	font-family: 'NSKM';
+	margin-bottom: 3.4rem;
+}
+.aboutUs-02 .item1 {
+	text-align: center;
+	margin-bottom: 3rem;
+}
+.aboutUs-02 .item2 h4 {
+	line-height: 3.9rem;
+	font-size: 2.5rem;
+	font-family: 'NSKM';
+}
+.aboutUs-02 .item2 .paragraph {
+	line-height: 2.7rem;
+	font-size: 1.8rem;
+	font-family: 'NSKR';
+}
+.aboutUs-02 .item2 .paragraph:not(:first-child) {
+	margin-top: 2.6rem;
+}
+.aboutUs-02 .item2 h5 {
+	font-size: 1.8rem;
+	font-family: 'NSKR';
+}
+.aboutUs-02 .item2 .paragraph:last-child {
+	text-align: right;
+}
+.company_history {
+	position: relative;
+	padding: 2.6rem 0;
+}
+.aboutUs-03 .article {
+	display: flex;
+}
+.aboutUs-03 .article:not(:first-child) {
+	margin-top: 2.5rem;
+}
+.aboutUs-03 .article .item {
+	width: 50%;
+}
+.aboutUs-03 .article .left-side {
+	text-align: right;
+	padding-right: 3rem;
+}
+.aboutUs-03 .article .right-side {
+	padding-left: 3rem;
+}
+.aboutUs-03 .line {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 2px;
+	height: 100%;
+	background-color: #804511;
+}
+.aboutUs-03 .line:before {
+	content: '';
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 20px;
+	height: 7px;
+	background-color: #804511;
+	top: -7px;
+}
+.aboutUs-03 .line:after {
+	content: '';
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 20px;
+	height: 7px;
+	background-color: #804511;
+	bottom: -7px;
+}
+.company_history .item {
+	line-height: 3.1rem;
+}
+.company_history h4 {
+	font-size: 2.5rem;
+	font-family: 'NSKB';
+	position: relative;
+	margin-bottom: 0.5rem;
+}
+.company_history p {
+	font-size: 1.8rem;
+	font-family: 'NSKR';
+}
+.company_history p span {
+	display: inline-block;
+}
+.company_history p span:first-child {
+	width: 4.6rem;
+}
+.aboutUs-03 .article .left-side p span:first-child {
+	text-align: left;
+}
+.aboutUs-03 .article .item h4:before {
+	content: '';
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 15px;
+	height: 2px;
+	background-color: #804511;
+}
+.aboutUs-03 .article .left-side h4:before {
+	right: -28px;
+}
+.aboutUs-03 .article .right-side h4:before {
+	left: -29px;
+}
+.aboutUs-04 .item {
+	text-align: center;
+}
+.aboutUs-05 .item:not(:first-child) {
+	margin-top: 5.6rem;
+}
+.aboutUs-05 .item1 {
+	width: 960px;
+	margin: 0 auto;
+}
+.aboutUs-05 .item1 .paragraph {
+	margin-top: 2rem;
+}
+.aboutUs-05 .item1 .paragraph p {
+	font-size: 1.8rem;
+	font-family: 'NSKR';
+}
+.aboutUs-05 .item2 {
+	padding: 6rem 0;
+	background-color: #f2f2f2;
+}
+.aboutUs-05 .item2 .box:not(:first-child) {
+	margin-top: 9.5rem;
+}
+.aboutUs-05 .item2 .box {
+	width: 589px;
+	margin: 0 auto;
+}
+.aboutUs-05 .item2 .box1 li:not(:first-child) {
+	margin-top: 3rem;
+}
+.aboutUs-05 .item2 .box .paragraph {
+	text-align: center;
+	font-size: 1.8rem;
+	font-family: 'NSKR';
+	line-height: 2.8rem;
+	margin-top: 1.6rem;
+}
+.aboutUs-05 .item2 .box2 h4 {
+	font-size: 2.5rem;
+	font-family: 'NSKM';
+	margin-bottom: 1.4rem;
+}
+.aboutUs-05 .item2 .box2 li:not(:first-child) {
+	margin-top: 1.3rem;
+}
+.aboutUs-05 .item2 .box2 li.certain {
+	display: flex;
+	justify-content: space-between;
+}
+.aboutUs-06 .item1 {
+	display: flex;
+	align-items: center;
+}
+.aboutUs-06 .item1 .left-side {
+	margin-right: 5.3rem;
+}
+.aboutUs-06 .item1 .right-side {
+	font-size: 1.8rem;
+	font-family: 'NSKR';
+}
+.aboutUs-06 .item1 .right-side span {
+	font-size: 2.5rem;
+}
+.aboutUs-06 .item2 {
+	margin-top: 6rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.aboutUs-06 .item2 li {
+	margin-top: 6rem;
+}
+.aboutUs-06 .item2 li:nth-child(-n+3) {
+	margin-top: 0;
+}
+.aboutUs-06 .item2 h4 {
+	font-size: 2.5rem;
+	font-family: 'NSKM';
+	margin-bottom: 1.4rem;
+	text-align: center;
+}

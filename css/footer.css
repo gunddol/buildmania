@@ -1,0 +1,305 @@
+#footer {
+	/* padding-top: 45px; */
+	padding-bottom: 85px;
+	/* background-color: #f6f6f6; */
+}
+#footer .ft_top {
+	background-color: #f7f7f7;
+}
+#footer .ft_top .container {
+	display: flex;
+}
+#footer .left.top {
+	padding-top: 45px;
+	width: 716px;
+	border-right: 1px solid #eee;
+}
+#footer .left.top .grid {
+	display: flex;
+}
+#footer .left.top .grid1 {
+	padding-bottom: 23px;
+	border-bottom: 1px solid #eee;
+}
+#footer .left.top .grid > div {
+	flex: 0 0 282px;
+}
+#footer .left.top .grid > div:first-child {
+	margin-right: 73px;
+}
+#footer .left.top .grid > div:last-child {
+	/* flex: 0 0 282px; */
+}
+#footer .customer h4 {
+	font-family: 'NSKR';
+	color: #777;
+	font-size: 1.6rem;
+	letter-spacing: -0.8px;
+	margin-bottom: 24px;
+}
+#footer .customer .number {
+	font-size: 3.2rem;
+	color: #444;
+	font-family: 'NSKB';
+	letter-spacing: -1.3px;
+	display: flex;
+	align-items: center;
+}
+#footer .customer .number img {
+	margin-right: 20px;
+}
+#footer .customer .mail {
+	padding-left: 45px;
+	color: #222;
+	font-size: 1.7rem;
+	font-family: 'NSKR';
+	letter-spacing: -0.8px;
+}
+#footer .business_hours h4 {
+	font-family: 'NSKM';
+	color: #777;
+	font-size: 1.5rem;
+	letter-spacing: -0.8px;
+	margin-bottom: 18px;
+}
+#footer .business_hours li {
+	color: #444;
+	font-family: 'NSKR';
+	letter-spacing: -0.8px;
+	line-height: 1;
+}
+#footer .business_hours li:not(:last-child) {
+	margin-bottom: 13px;
+}
+#footer .business_hours li span:first-child {
+	width: 70px;
+	display: inline-block;
+	font-size: 1.5rem;
+}
+#footer .business_hours li span:last-child {
+	font-size: 1.8rem;
+	font-family: 'NSKB'
+}
+#footer .left.top .grid2 {
+	padding-top: 19px;
+	padding-bottom: 40px;
+}
+#footer .bank_account {
+	display: flex;
+	flex-wrap: wrap;
+}
+#footer .bank_account h4 {
+	font-family: 'NSKR';
+    color: #777;
+    font-size: 1.6rem;
+    letter-spacing: -0.8px;
+	flex: 0 0 100%;
+	margin-bottom: 16px;
+}
+#footer .bank_account > div:nth-of-type(1) {
+	flex: 0 0 44px;
+}
+#footer .bank_account > div:nth-of-type(2) {
+	display: flex;
+	flex-direction: column;
+}
+#footer .bank_account > div:nth-of-type(2) span:nth-child(1) {
+	color: #222;
+	font-size: 1.5rem;
+	font-family: 'NSKR';
+	line-height: 1;
+}
+#footer .bank_account > div:nth-of-type(2) span:nth-child(2) {
+	color: #444;
+	font-size: 2.6rem;
+	font-family: 'NSKB';
+	letter-spacing: -0.8px;
+}
+#footer .bank li {
+	color: #444;
+	font-family: 'NSKR';
+    letter-spacing: -0.8px;
+    line-height: 1;
+	margin-top: 12px;
+}
+#footer .bank li:first-child {
+	margin-top: 6px;
+}
+#footer .bank li span:first-child {
+	width: 36px;
+    display: inline-block;
+    font-size: 1.5rem;
+}
+#footer .bank li span:last-child {
+	font-size: 1.8rem;
+	font-family: 'NSKB';
+}
+#footer .right.top {
+	padding-top: 45px;
+	padding-left: 60px;
+}
+#footer .right.top > div {
+	width: 438px;
+}
+#footer .news_notice h4 {
+	font-family: 'NSKR';
+    color: #777;
+    font-size: 1.6rem;
+    letter-spacing: -0.8px;
+    margin-bottom: 18px;
+}
+#footer .news_notice li:not(:first-child) {
+	margin-top: 15px;
+}
+#footer .news_notice li a {
+	line-height: 1;
+	color: #222;
+	font-size: 1.5rem;
+	font-family: 'NSKR';
+	letter-spacing: -0.8px;
+	display: flex;
+	justify-content: space-between;
+}
+#footer .news_notice li a:hover .title {
+	text-decoration: underline;
+}
+#footer .news_notice .title {
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	flex: 0 1 65%;
+}
+#footer .news_notice .date {
+	color: #555;
+}
+#footer .footer_nav {
+	margin-top: 55px;
+	display: flex;
+	justify-content: space-between;
+}
+#footer .footer_nav li {
+	flex-basis: calc((100% - 39px) / 4);
+	height: 43px;
+	border: 1px solid #8e8e8e;
+}
+#footer .footer_nav li a {
+	display: block;
+	height: 100%;
+	padding: 0 10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	color: #222;
+	font-size: 1.4rem;
+	font-family: 'NSKR';
+	letter-spacing: -0.8px;
+	transition: background-color 0.2s;
+	background-color: #fff;
+}
+#footer .footer_nav li a:hover {
+	/* background-color: #fefefe; */
+}
+#footer .ft_middle {
+	border-top: 1px solid #333;
+	border-bottom: 1px solid #eee;
+}
+#footer .other_footer_nav {
+	display: flex;
+	line-height: 56px;
+}
+#footer .other_footer_nav li:not(:first-child) {
+	margin-left: 20px;
+}
+#footer .other_footer_nav li a {
+	font-family: 'NSKR';
+	font-size: 1.4rem;
+	color: #8e8e8e;
+	letter-spacing: -0.6px;
+}
+#footer .other_footer_nav li a:hover {
+	text-decoration: underline;
+}
+#footer .ft_bottom {
+	/* width: 716px; */
+	line-height: 1;
+	padding-top: 25px;
+	letter-spacing: -0.4px;
+}
+#footer .ft_bottom .container {
+	display: flex;
+	position: relative;
+	justify-content: space-between;
+}
+/* #footer .ft_bottom .grid:not(:first-child) {
+	margin-top: 22px;
+} */
+#footer .ft_bottom p {
+	font-family: 'NSKR';
+	color: #333;
+	font-size: 1.4rem;
+	margin-top: 7px;
+}
+#footer .left.bottom {
+	flex: 0 0 715px;
+}
+#footer .right.bottom {
+	flex: 0 0 50%;
+}
+#footer .left.bottom p:nth-child(1) {
+	/* font-size: 1.3rem; */
+	letter-spacing: -0.4px;
+	/* font-family: 'NSKB'; */
+	display: flex;
+	align-items: center;
+}
+#footer .left.bottom p:nth-child(1) a {
+	margin-left: 5px;
+}
+#footer .ft_bottom p a {
+	color: #333;
+}
+/* #footer .left.bottom p:nth-child(2) {
+	font-family: 'NSKR';
+	color: #333;
+	font-size: 1.4rem;
+	margin-top: 10px;
+	margin-right: 16px;
+} */
+#footer .left.bottom p:nth-child(2) {
+	margin-top: 19px;
+}
+#footer .left.bottom p:nth-child(2) span, #footer .left.bottom p:nth-child(3) span {
+	position: relative;
+	margin-right: 16px;
+}
+#footer .left.bottom p:nth-child(2) span:before, #footer .left.bottom p:nth-child(3) span:before {
+	content: '';
+	display: block;
+	width: 1px;
+	height: 9px;
+	background-color: #bbb;
+	position: absolute;
+	top: 5px;
+	right: -9px;
+}
+#footer .left.bottom p:nth-child(2) span:last-child:before, #footer .left.bottom p:nth-child(3) span:last-child:before {
+	display: none;
+}
+#footer .left.bottom p:nth-child(4) {
+	font-family: 'NSKR';
+	font-size: 1.3rem;
+	margin-top: 19px;
+}
+#footer .right.bottom {
+	font-family: 'NSKR';
+	color: #333;
+	font-size: 1.4rem;
+}
+#footer .right.bottom ul li {
+	margin-top: 7px;	
+}
+#footer .escrow {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}

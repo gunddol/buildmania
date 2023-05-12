@@ -1,0 +1,162 @@
+.section_login {
+	padding: 130px 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.section_login .login {
+	width: 520px;
+	background-color: #fff;
+	padding: 77px 70px 60px;
+	border: 3px solid #f3f3f3;
+	line-height: 1;
+	letter-spacing: -0.8px;
+}
+.section_login .login h2 {
+	font-family: 'NSKB';
+	font-size: 3.8rem;
+	color: #222;
+	margin-bottom: 14px;
+	text-align: center;
+	letter-spacing: -2px;
+}
+.section_login .login .txt {
+	font-family: 'NSKD';
+	font-size: 1.4rem;
+	color: #b0b0b0;
+	margin-bottom: 18px;
+	text-align: center;
+}
+.section_login  .id_box input::placeholder, .section_login  .pw_box input::placeholder {
+	color: #a6a6a6;
+	letter-spacing: -0.8px;
+}
+.section_login  .id_box {
+	margin-bottom: 10px; 	
+}
+.section_login  .id_box input {
+	width: 100%;
+	height: 50px;
+	border: 0 none;
+	border-bottom: 1px solid #272727;
+	font-family: 'NSKR';
+	font-size: 1.7rem;
+	color: #272727;
+}
+.section_login  .pw_box {
+	margin-bottom: 10px; 	
+}
+.section_login  .pw_box input {
+	width: 100%;
+	height: 50px;
+	border: 0 none;
+	border-bottom: 1px solid #272727;
+	font-family: 'NSKR';
+	font-size: 1.7rem;
+	color: #272727;
+}
+.section_login  .id_box input::placeholder, .section_login  .pw_box input::placeholder {
+	color: #a6a6a6;
+	letter-spacing: -0.8px;
+	font-family: 'NSKL';
+}
+.section_login .loginBtn_box {
+	margin-bottom: 18px;
+}
+.section_login .loginBtn_box button {
+	width: 100%;
+	height: 50px;
+	color: #fff;
+	background-color: #272727;
+	letter-spacing: -0.8px;
+	font-size: 1.7rem;
+}
+.save_id_box {
+	text-align: right;
+	font-family: 'NSKR';
+	font-size: 1.4rem;
+	color: #a0a0a0;
+	margin-bottom: 22px;
+}
+.save_id_box input[type="checkbox"] {
+	margin-right: 6px;
+}
+.section_login .handy_login {
+	padding-top: 20px;
+	border-top: 1px solid #dcdcdc;
+	display: flex;
+	flex-direction: column;
+}
+.section_login .handy_login h3{
+	font-family: 'NSKB';
+	font-size: 2.0rem;
+	color: #272727;
+	margin-bottom: 17px;
+}
+.section_login .handy_login button {
+	height: 50px;
+	border: 1px solid;
+	font-family: 'NSKB';
+	font-size: 1.7rem;
+	background-color: #fff;
+	transition: 0.1s;
+	letter-spacing: -0.8px;
+}
+.section_login .kakaoBtn {
+	border-color: #ffcd00;
+	color: #ffcd00;
+	margin-bottom: 10px;
+}
+.section_login .kakaoBtn:hover {
+	background-color: #ffcd00;
+	color: #fff;
+}
+.section_login .naverBtn {
+	border-color: #19ce60;
+	color: #19ce60;
+	margin-bottom: 18px;
+}
+.section_login .naverBtn:hover {
+	background-color: #19ce60;
+	color: #fff;
+}
+.section_login .otherMenu {
+	display: flex;
+	justify-content: space-between;
+}
+.section_login .otherMenu a {
+	font-family: 'NSKR';
+	font-size: 1.4rem;
+	color: #a0a0a0;
+}
+.section_login .otherMenu a:hover {
+	color: #272727;
+}
+.non_member {
+    align-items: inherit;
+}
+.non_member .login:not(first-child) {
+    margin-left: 1rem;
+}
+.non_member_login {
+    padding-top: 20px;
+    border-top: 1px solid #dcdcdc;
+}
+.non_member_login .grid {
+    margin-top: 20px;
+}
+.non_member_login h3 {
+    font-family: 'NSKB';
+    font-size: 2.0rem;
+    color: #272727;
+    margin-bottom: 10px;
+}
+.non_member_login .grid p {
+    line-height: 22px;
+}
+
+.g-recaptcha {margin:0 auto;}
+.login_capcha {margin-bottom:10px; font-size:15px;}
+.login_capcha li:nth-of-type(1) {overflow:hidden; border-bottom:1px solid #b7b7b7;margin: 20px 0; padding-bottom: 5px;}
+.login_capcha h4 {float:left; font-weight:normal;}
+.login_capcha p  {float:right; color:red;font-size:12px;    padding-top: 2px;}
