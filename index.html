@@ -15,7 +15,6 @@
 		
 		<link rel="stylesheet" type="text/css" href="./css/style.css">
 		<link rel="stylesheet" type="text/css" href="./css/jquery.alerts.css">
-
 		
 		<script src="./js/jquery-3.5.1.min.js"></script>
 		<script src="./js/owl.carousel.js"></script>
@@ -23,16 +22,16 @@
 		<script src="./js/common.js"></script>
 		<script src="./js/jquery.alerts.js"></script>
 		<script src="./js/detail.js"></script>
-		<script src="./js/konva.min.js"></script>
 		<script src="./js/alertify.js"></script>
-
-		<script type="text/javascript" src="https://www.buildm.co.kr:443/shop/module/shop/wood_design_proto/js/wood.application.js"></script>
+		<script src="./js/konva.min.js"></script>
+		<script src="./js/wood.application.js"></script>
 
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"></script>
 		<script src="http://code.jquery.com/jquery-migrate-1.2.1.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
 
 	</head>
+
 	<body>
 		<div id="cutting" style="overflow:scroll;">
 			<form name="cutting_send_view" id="cutting_view" method="post" enctype="multipart/form-data">
@@ -68,10 +67,11 @@
 						<div id="cutting-ver2" style="display: block;">
 							<div class="top">
 								<div class="left">
-									<p class="title">제품명 : [화이트오크 합판(무늬목 단면)<br>5T*1220*2440 1220*2440]</p>
+									<p class="title-main">목취도 그리기</p>
+									<p class="title">제품명 : [화이트오크 합판(무늬목 단면)5T*1220*2440 1220*2440]</p>
 								</div>
 								<div class="right">
-									<ul class="wood-size">
+									<!--ul class="wood-size">
 										<li>
 											<p>폭(세로)</p>
 											<p class="size">1220</p>
@@ -80,14 +80,14 @@
 											<p>길이(가로)</p>
 											<p class="size">2440</p>
 										</li>
-									</ul>
+									</ul-->
 									<ul class="top-btn">
-										<li>
+										<!--li>
 											<a href="javascript:;" id="add_plus">목취도 추가</a>
 										</li>
 										<li>
 											<a href="javascript:;" id="add_delete">목취도 삭제</a>
-										</li>
+										</li-->
 										<li>
 											<a href="javascript:;" class="cutting-guide-btn">이용방법</a>
 										</li>
@@ -96,7 +96,7 @@
 							</div>
 		
 							<div class="middle">
-								<div class="page-tab">
+								<!--div class="page-tab">
 									<div class="controller">
 										<span class="operation" id="move_canvas_add">화면조작</span>
 										<span class="btn zoom-in" id="zoom_in_add"></span>
@@ -154,25 +154,16 @@
 											return false;
 										});
 									});
-								</script>
+								</script-->
 		
 								<div id="printableArea">
 									<div class="page-contents">
 										<div class="page">
-											<div class="grid grid1">
+											<!--div class="grid grid1">
 												<p class="title1" id="work-name">목취도1</p>
-											</div>
+											</div-->
 											<div class="grid grid2">
-												<div class="wood" id="blueprint">
-													<div class="konvajs-content" role="presentation" style="position: relative; width: 1200px; height: 530px;">
-														<canvas width="1200" height="530" style="padding: 0px; margin: 0px; border: 0px; background: transparent; position: absolute; top: 0px; left: 0px; width: 1200px; height: 530px;">
-														</canvas>
-														<canvas width="1200" height="530" style="padding: 0px; margin: 0px; border: 0px; background: transparent; position: absolute; top: 0px; left: 0px; width: 1200px; height: 530px;">
-														</canvas>
-														<canvas width="1200" height="530" style="padding: 0px; margin: 0px; border: 0px; background: transparent; position: absolute; top: 0px; left: 0px; width: 1200px; height: 530px;">
-														</canvas>
-													</div>
-												</div>
+												<div class="wood" id="blueprint"><div class="konvajs-content" role="presentation" style="position: relative; width: 1200px; height: 530px;"><canvas width="1200" height="530" style="padding: 0px; margin: 0px; border: 0px; background: transparent; position: absolute; top: 0px; left: 0px; width: 1200px; height: 530px;"></canvas><canvas width="1200" height="530" style="padding: 0px; margin: 0px; border: 0px; background: transparent; position: absolute; top: 0px; left: 0px; width: 1200px; height: 530px;"></canvas><canvas width="1200" height="530" style="padding: 0px; margin: 0px; border: 0px; background: transparent; position: absolute; top: 0px; left: 0px; width: 1200px; height: 530px;"></canvas></div></div>
 											</div>
 										</div>
 		
@@ -183,15 +174,14 @@
 							<div class="bottom">
 								<div class="grid grid1">
 									<ul class="left">
-										<li>
-											<p>현재 커팅 수 : <span id="cutting_num">0</span>개</p>
-										</li>
-										<li>
-											<p>재단비 : <span id="cutting_cost">0</span>원</p>
-										</li>
-										<li>
-											<p>총재단비 : <span id="cutting_totalcost">0</span>원</p>
-										</li>
+											<li>
+												<p>폭(세로)</p>
+												<p class="size">1220</p>
+											</li>
+											<li>
+												<p>길이(가로)</p>
+												<p class="size">2440</p>
+											</li>
 									</ul>
 									<ul class="right">
 										<li>
@@ -308,6 +298,6 @@
 		
 				</div>
 			</form>
-		</div>
+		</div>	
 	</body>
 </html>

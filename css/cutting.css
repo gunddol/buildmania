@@ -405,9 +405,9 @@
     left: 50%;
     transform: translateX(-50%);
     background-color: #fff;
-    padding: 10px;
     box-shadow: 0 1px 3px rgb(0 0 0 / 20%);
     z-index: 100000;
+	border-radius: 20px;
 }
 /*캡쳐때문에 추가*/
 #printableArea {
@@ -417,31 +417,37 @@
 
 
 #cutting-ver2 .top {
-	background-color: #27394c;
-	height: 90px;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding: 0 30px;
-	padding-right: 60px;
+	margin: 30px 30px 30px 40px;
 }
 #cutting-ver2 .title {
-	font-size: 17px;
-	color: #fff;
-	font-family: 'NSKM';
+	font-size: 16px;
+	color: #000;
+	font-family: 'Pretendard';
+	font-weight: 500;
+}
+#cutting-ver2 .title-main {
+	font-size: 28px;
+	color: #000;
+	font-family: 'Pretendard';
+	font-weight: 700;
+	margin-bottom: 6px;
 }
 #cutting-ver2 .right {
 	display: flex;
-	color: #fff;
+	color: #000;
 	font-size: 14px;
-	font-family: 'NSKM';
+	font-family: 'Pretendard';
+	font-weight: 500;
 }
 #cutting-ver2 ul {
 	display: flex;
 	align-items: center;
 }
 #cutting-ver2 .right a {
-	color: #fff;
+	color: #000;
 	font-size: 14px;
 	font-family: 'NSKM';
 }
@@ -459,7 +465,7 @@
 #cutting-ver2 .wood-size p {
 	line-height: 40px;
 }
-#cutting-ver2 .wood-size .size {
+#cutting-ver2 .left .size {
 	width: 70px;
 	height: 40px;
 	background-color: #fff;
@@ -467,8 +473,17 @@
 	align-items: center;
 	justify-content: center;
 	color: #222;
-	font-family: 'NSKM';
+	border: 1px solid #c6c6c6;
+	border-radius: 35px;
+	font-family: 'Pretendard';
 	margin-left: 10px;
+}
+#cutting-ver2 .left li {
+	display: flex;
+	color: #000;
+	font-size: 14px;
+	font-family: 'Pretendard';
+	font-weight: 500;
 }
 #cutting-ver2 .top-btn li:not(:first-child) {
 	margin-left: 10px;
