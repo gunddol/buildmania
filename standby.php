@@ -61,7 +61,7 @@
             });
         })
         function popup_toggle(toggleID) {
-            obj = document.getElementById(toggleB);
+            obj = document.getElementById(toggleID);
             if (obj.style.display == "none") 
                 obj.style.display = "block";
             else 
