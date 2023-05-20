@@ -1561,11 +1561,11 @@ function delete_confirm2(msg)
 				$(".wrap-loading").fadeIn();	
 			},
 			success: function(html) {
-			$("#cutting").html(html);  
-			$('#modal').show();
-			$('#cutting-wrap').addClass('active');
-				_log("[Ajax SUCCESS]");
-				//alert(data);
+				$("#cutting").html(html);  
+				$('#modal').show();
+				$('#cutting-wrap').addClass('active');
+					_log("[Ajax SUCCESS]");
+					//alert(data);
 			},
 			complete:function(){
 				$(".wrap-loading").fadeOut();
@@ -1606,11 +1606,11 @@ function delete_confirm2(msg)
 				$(".wrap-loading").fadeIn();	
 			},
 			success: function(html) {
-			$("#cutting").html(html);  
-			$('#modal').show();
-			$('#cutting-wrap').addClass('active');
-				_log("[Ajax SUCCESS]");
-				//alert(data);
+				$("#cutting").html(html);  
+				$('#modal').show();
+				$('#cutting-wrap').addClass('active');
+					_log("[Ajax SUCCESS]");
+					//alert(data);
 			},
 			complete:function(){
 				$(".wrap-loading").fadeOut();
